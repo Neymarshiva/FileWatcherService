@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34322.80
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{CDDFF30B-C940-4F09-BAB5-563CF957D286}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{BC8EBF19-EB23-424B-A035-4CB3F61D4F30}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FileWatcherService", "FileWatcherService", "{D1DFB4BE-8AFE-43CC-94CF-F258B85689AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileWatcherService", "src\FileWatcherService\FileWatcherService.csproj", "{F079DBB3-9485-412D-B34C-F56ECCB15F42}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileWatcherService.Tests", "tests\FileWatcherService.Tests\FileWatcherService.Tests.csproj", "{CF6A9478-9119-4466-8A9D-04F03B03E732}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F079DBB3-9485-412D-B34C-F56ECCB15F42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F079DBB3-9485-412D-B34C-F56ECCB15F42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F079DBB3-9485-412D-B34C-F56ECCB15F42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F079DBB3-9485-412D-B34C-F56ECCB15F42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF6A9478-9119-4466-8A9D-04F03B03E732}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF6A9478-9119-4466-8A9D-04F03B03E732}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF6A9478-9119-4466-8A9D-04F03B03E732}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF6A9478-9119-4466-8A9D-04F03B03E732}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D1DFB4BE-8AFE-43CC-94CF-F258B85689AD} = {CDDFF30B-C940-4F09-BAB5-563CF957D286}
+		{F079DBB3-9485-412D-B34C-F56ECCB15F42} = {D1DFB4BE-8AFE-43CC-94CF-F258B85689AD}
+		{CF6A9478-9119-4466-8A9D-04F03B03E732} = {BC8EBF19-EB23-424B-A035-4CB3F61D4F30}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DBEB9547-E2EA-4D63-94FD-AFBD08F59886}
+	EndGlobalSection
+EndGlobal
